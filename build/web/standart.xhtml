@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    
+    <h:head>
+        <title>Standart - Del Luna Hotel</title>
+        <link rel="icon" href="image/Loogonew.png" />
+        <link rel="stylesheet" href="index.css"/>
+    </h:head>
+    
+    <h:body>
+      
+     <!--Navbar-->
+   <nav class="navbar">
+    <h:form>
+        
+             <h:graphicImage value="resources/image/Logonew.png" alt="logo" width="100"/>
+       
+    </h:form>
+    
+       
+       <div>
+           <a href="home.xhtml">Home</a>
+       </div>
+       
+        <div>
+            
+           <a href="index.xhtml">Login Admin</a>
+       </div>
+   </nav> 
+     
+     
+     
+     <!--Info-->
+            <h:form>
+                <div class="border">
+                    <div class="row-8">
+                        <br/>
+                        <br/>
+                        <H1>Standart Room</H1>
+                        <div class="row-6">
+                                                     
+                        <!--Carousel-->
+                            <div class="slideshow-container">
+                                <div class="mySlides fade">
+                                    <div class="numbertext">1 / 3</div>
+                                        
+                                        <h:graphicImage value="resources/image/standart.jpg" alt="logo" style="width:600px" height="500px"/>
+                                         
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">2 / 3</div>
+                                        
+                                        <h:graphicImage value="resources/image/standart2.jpg" style="width:600px" height="500px"/>
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">3 / 3</div>
+                                       
+                                        <h:graphicImage value="resources/image/standart3.jpg" style="width:600px" height="500px"/>
+                                </div>
+                            </div>
+                            <br/>
+                            <div style="text-align:center">
+                                <span class="dot" ></span> 
+                                <span class="dot" ></span> 
+                                <span class="dot" ></span> 
+                            </div>
+                        </div>
+                    
+          
+                    
+                    
+                    
+                        <div class="row-7">
+                            <div class="column-half">
+                                <h2>Package inclusive</h2>
+                                <p>Buffet Breakfast for 2 Person</p>
+                                <p>Toiletries</p>
+                                <p>Wi-Fi Access</p>
+                                <p>Water Heater</p>
+                                <p>Private Balcony</p>
+                              
+                            </div>
+                            <div class="column-half">               
+                                <h2>Terms and Condition</h2>
+                                <p>Confirmed reservation cannot be cancelled nor amended. </p>
+                                <p>1 room only for 2 person.</p>
+                                <p>Full payment is required upon reservation.</p>
+                                <p>Check in start at 13.00 PM, no early check in.</p>
+                                <p>Max check out at 15.00 PM, bear a fine of Rp 100.000,- per hour if late.</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>   
+            </h:form>
+     
+     <!--Footer-->
+        <footer>
+            <div class="footerfield">
+                <div class="footer-wrapper">
+                    <h3>ABOUT US</h3>
+                    <p>Check our contact on </p>
+                    <p>Whatsapp +139812772003</p>
+                     <p>Instagram @DelLunaHotel</p>
+                    <div class= "social-media">
+                        <h:form>
+                            <h:commandLink action="#" class="fab fa-facebook-f"></h:commandLink>
+                            <h:commandLink action="#" class="fab fa-twitter"></h:commandLink>
+                            <h:commandLink action="#" class="fab fa-youtube"></h:commandLink>
+                        </h:form>
+                    </div>
+                </div>
+               
+                 <div class="footer-wrapper">
+                    <h4>OUR ROOMS</h4>
+                    <h:form>
+                        <h:commandLink action="pagestandart" class="nav-item" ></h:commandLink>
+                    <a href="standart.html">STANDART</a>
+     
+                        <br></br>
+                        <h:commandLink action="pagesluxury" class="nav-item" ></h:commandLink>
+                    <a href="luxury.xhtml">LUXURY</a>
+
+                        <br></br>
+                        <h:commandLink action="pagespresidentsuite" class="nav-item" ></h:commandLink>
+                    <a href="presidentsuite.xhtml">PRESIDENT SUITE</a>
+
+                    </h:form>
+                </div>
+                <div class="footer-wrapper">
+                    <h4>ABOUT</h4>
+                    <h:form>
+                    <h:commandLink action="#" class="nav-item" value="FAQ"></h:commandLink>
+                    <br></br>
+                    <h:commandLink action="#" class="nav-item" value="Get Inspired"></h:commandLink>
+                    <br></br>
+                    <h:commandLink action="#" class="nav-item" value="Blog"></h:commandLink>
+                    </h:form>
+                </div>
+            </div>
+        </footer>
+
+<script src="script.js"></script>
+     </h:body>
+</html>
+
+

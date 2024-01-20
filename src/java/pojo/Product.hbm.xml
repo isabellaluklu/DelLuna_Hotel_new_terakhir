@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 1, 2021 11:35:15 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="pojo.Product" table="product" catalog="rajaerba" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="RoomType" type="string">
+            <column name="RoomType" length="50" not-null="true" />
+        </property>
+        <property name="AgeCategory" type="string">
+            <column name="AgeCategory" length="50" not-null="true" />
+        </property>
+        <property name="Available" type="string">
+            <column name="Available" length="50" not-null="true" />
+        </property>
+       
+    </class>
+</hibernate-mapping>

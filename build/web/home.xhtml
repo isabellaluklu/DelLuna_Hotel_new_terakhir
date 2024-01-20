@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    
+    <h:head>
+        <title>Home Page - Del Luna Hotel</title>
+        <link rel="icon" href="image/Loogonew.png" />
+        <link rel="stylesheet" href="index.css"/>
+    </h:head>
+    
+    <h:body>
+      
+     <!--Navbar-->
+   <nav class="navbar">
+    <h:form>
+        
+             <h:graphicImage value="resources/image/Logonew.png" alt="logo" width="100"/>
+       
+    </h:form>
+    
+        <h:form>
+                                     <h:commandButton
+                                         value="Home"
+                                         action="/home.xhtml"
+                                         
+                                />
+                                </h:form>
+       <h:form>
+                                     <h:commandButton
+                                         value="Login Admin"
+                                         action="/index.xhtml"
+                                         
+                                />
+                                </h:form>
+       
+        
+   </nav> 
+     
+     <br/><br/><br/>
+    <div class="wallpaper">
+        <br/>
+        <br/>
+        <br/>
+        
+        <div class="title">
+            <h3 style="color: #dda15e" font-size="200px">
+                Welcome to Del Luna, Las Vegas
+            </h3>
+            <br></br>
+            <br></br>
+             
+             <h:graphicImage value="resources/image/hotel mewah.jpg" alt="logo" class="logo-1" style="width:1110px" height="700px"/>
+            
+          
+    </div>
+        </div>
+      <br></br>
+                <br></br>
+      <br></br>
+                <br></br>
+              <br></br>
+                <br></br>
+                  <br></br>
+                    
+    <div class="row">
+        <h2>Del Luna Hotel,Las Vegas</h2>
+         <br></br>
+                
+        <p>This Del Luna Hotel features spacious suites,  
+            This eco-friendly resort features spacious suites 
+            with a sunken sitting area with a dining table and 
+            two LCD cable HDTVs. A luxurious private bathroom 
+            with an over-sized soaking tub, a separate glass-enclosed 
+            shower, marble counters, and deluxe toiletries is also 
+            included at Del Luna Hotel.
+            A wide selection of dining choices at the resort includes
+            bistro fare at Thomas Keller’s Bouchon. Guests can also 
+            dine on a variety of choices, including American, Italian, 
+            Asian and fusion cuisine. In-suite dining is also available. 
+            Poolside dining and private cabana rentals are available. 
+            Guests receive complimentary access to the fitness gym at 
+            Canyon Ranch spa + fitness.</p>
+    </div>
+       
+       
+    <!--Carousel-->
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1/6</div>
+            
+             <h:graphicImage value="resources/image/dining room.jpg" alt="logo" style="width:400px" height="500px"/>
+            
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">2/6</div>
+                
+                <h:graphicImage value="resources/image/outdoor pool.jpg" alt="logo" style="width:400px" height="500px"/>
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">3/6</div>
+                
+                <h:graphicImage value="resources/image/room.jpg" alt="logo" style="width:400px" height="500px"/>
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">4/6</div>
+                
+                <h:graphicImage value="resources/image/presidentsuite.jpg" alt="logo" style="width:400px" height="500px"/>
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">5/6</div>
+                
+                <h:graphicImage value="resources/image/presidentsuite2.jpg" alt="logo" style="width:400px" height="500px"/>
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">6/6</div>
+         
+                <h:graphicImage value="resources/image/luxury3.jpg" alt="logo" style="width:400px" height="500px"/>
+        </div>
+    
+    </div>
+    
+  
+    <br/>
+    
+    <div style="text-align:center">
+        
+        <span class="dot" ></span> 
+        <span class="dot" ></span>
+        <span class="dot" ></span>  
+        <span class="dot" ></span> 
+        <span class="dot" ></span> 
+        <span class="dot" ></span> 
+          
+
+    </div>
+    <br/>
+    
+    
+    
+    
+    
+      <br></br>
+    <br></br>
+    <div class="roomstype" style="text-align: center">
+       <h1 id="room">ROOMS TYPE</h1>
+       </div>
+    
+ 
+    <!--Table Game Card-->
+    <h:form>
+        <table class="table-card" id="room">
+            <tr>
+                <td class="card">
+                    <h:commandLink action="pagestandart" class="field">
+                        
+                        <h:graphicImage value="resources/image/standart.jpg" alt="pagestandart" class="imgfield"/>
+                        <a class="txth1" href="standart.xhtml">STANDART</a>
+                        <a>200 $</a>
+                    
+                    </h:commandLink>
+                </td>
+                <td class="card">
+                    <h:commandLink action="pagesluxury" class="field">
+                        
+                        <h:graphicImage value="resources/image/luxury.jpg" alt="pagesluxury" class="imgfield"/>
+                       <a class="txth1" href="luxury.xhtml">LUXURY</a>
+                        <a>400 $</a>
+                    </h:commandLink>
+                </td>
+                <td class="card">
+                    <h:commandLink action="pagespresidentsuite" class="field">
+                      
+                        <h:graphicImage value="resources/image/presidentsuite.jpg" alt="pagespresidentsuite" class="imgfield"/>
+                        <a class="txth1" href="presidentsuite.xhtml">PRESIDENT SUITE</a>
+                         <a>700 $</a>
+                    </h:commandLink>
+                </td>
+            </tr>
+        </table>
+        </h:form>
+      
+   
+        
+    <!--Footer-->
+        <footer>
+            <div class="footerfield">
+                <div class="footer-wrapper">
+                    <h3>ABOUT US</h3>
+                    <p>Check our contact on </p>
+                    <p>Whatsapp +139812772003</p>
+                     <p>Instagram @DelLunaHotel</p>
+                    
+                </div>
+                <div class="footer-wrapper">
+                    <h4>OUR ROOMS</h4>
+                    <h:form>
+                        <h:commandLink action="pagestandart" class="nav-item" ></h:commandLink>
+                    <a href="standart.xhtml">STANDART</a>
+     
+                        <br></br>
+                        <h:commandLink action="pagesluxury" class="nav-item" ></h:commandLink>
+                    <a href="luxury.xhtml">LUXURY</a>
+
+                        <br></br>
+                        <h:commandLink action="pagespresidentsuite" class="nav-item" ></h:commandLink>
+                    <a href="presidentsuite.xhtml">PRESIDENT SUITE</a>
+
+                    </h:form>
+                </div>
+                <div class="footer-wrapper">
+                    <h4>ABOUT</h4>
+                    <h:form>
+                    <h:commandLink action="#" class="nav-item" value="FAQ"></h:commandLink>
+                    <br></br>
+                    <h:commandLink action="#" class="nav-item" value="Get Inspired"></h:commandLink>
+                    <br></br>
+                    <h:commandLink action="#" class="nav-item" value="Blog"></h:commandLink>
+                    </h:form>
+                </div>
+            </div>
+        </footer>
+
+<script src="script.js"></script>
+     </h:body>
+</html>
+
+
